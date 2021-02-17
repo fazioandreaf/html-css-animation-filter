@@ -29,6 +29,12 @@
   height: 100px;
   width: 100px;
   margin: 0px;
-}.ex-5-square:active {
+}
+.well img {
+  filter: grayscale(0);
+  transition: all 1s ease-in-out;
 
+}
+.well img:hover {
+  filter: grayscale(1);
 }
