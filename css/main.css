@@ -39,10 +39,29 @@
   filter: grayscale(1);
 }
 .well .ex-7-img {
-  filter: sepia(0);
+  filter: sepia(0) grayscale(0);
   transition: all 1s ease-in-out;
 
 }
 .well .ex-7-img:hover {
   filter: sepia(0.8) grayscale(0.2);
+}
+.well .ex-8-img {
+  transition: all 1s ease-in-out;
+  filter: sepia(0);
+
+}
+.well .ex-8-img:hover {
+  filter: sepia(0.7) grayscale(0.2);
+  border-radius: 3%;
+}
+.well .ex-9-img {
+  transition: all 1s ease-in-out;
+  filter: sepia(0) grayscale(0);
+
+}
+.well .ex-9-img:hover {
+  filter: sepia(0.7) grayscale(0.2);
+  border-radius: 3%;
+   transform: scale(1.3); /*ricordare questa funzione */
 }
