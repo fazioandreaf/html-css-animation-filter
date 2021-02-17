@@ -22,3 +22,13 @@
 .ex-4-square:hover {
   opacity: 0;
 }
+.ex-5-square {
+  transition: all 1s ease-in-out;
+}
+.ex-5-square:hover {
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+}.ex-5-square:active {
+
+}
