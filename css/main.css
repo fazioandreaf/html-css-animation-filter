@@ -66,9 +66,23 @@
 }
 .well .ex-10-icon {
   position: relative;
-  animation: prova 3s infinite linear;
+  animation: prova-10 3s infinite linear;
 }
-@keyframes prova {
+@keyframes prova-10 {
   0% { transform: rotate(0deg);}
   100%  { transform: rotate(360deg);}
+}
+.well .ex-11-icon {
+  position: relative;
+}
+.well .ex-11-icon:hover{
+  animation: prova-11 2s  linear;
+}
+
+
+@keyframes prova-11 {
+  0% { transform: rotate(0deg);}
+  90%  { transform: rotate(270deg);}
+  100%  { transform: rotate(0deg);}
+
 }
