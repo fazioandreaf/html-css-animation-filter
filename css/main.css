@@ -78,11 +78,24 @@
 .well .ex-11-icon:hover{
   animation: prova-11 2s  linear;
 }
-
-
 @keyframes prova-11 {
   0% { transform: rotate(0deg);}
   90%  { transform: rotate(270deg);}
   100%  { transform: rotate(0deg);}
-
+}
+.well .ex-12-top-white {
+  animation: prova-12-top 4s infinite linear;
+}
+.well .ex-12-bottom-white {
+  animation: prova-12-bottom 4s infinite linear;
+}
+@keyframes prova-12-top {
+  0% { left:10%;}
+  50%  { left:calc(90% - 60px);}
+  100%  { left:10%;}
+}
+@keyframes prova-12-bottom {
+  0% { left:calc(90% - 60px);}
+  50%  { left:10%;}
+  100%  { left:calc(90% - 60px);}
 }
