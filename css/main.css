@@ -30,11 +30,19 @@
   width: 100px;
   margin: 0px;
 }
-.well img {
+.well .ex-6-img {
   filter: grayscale(0);
   transition: all 1s ease-in-out;
 
 }
-.well img:hover {
+.well .ex-6-img:hover {
   filter: grayscale(1);
+}
+.well .ex-7-img {
+  filter: sepia(0);
+  transition: all 1s ease-in-out;
+
+}
+.well .ex-7-img:hover {
+  filter: sepia(0.8) grayscale(0.2);
 }
