@@ -30,6 +30,10 @@
   width: 100px;
   margin: 0px;
 }
+.ex-5-square:active {
+  transform: scale(0.2);
+ margin: 0px;
+}
 .well .ex-6-img {
   filter: grayscale(0);
   transition: all 1s ease-in-out;
